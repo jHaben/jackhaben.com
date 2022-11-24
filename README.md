@@ -1,5 +1,7 @@
 # jackhaben.netlify.app
 
+[![Netlify Status](https://api.netlify.com/api/v1/badges/ef9ce5bf-9366-440c-a198-6eec6fc38669/deploy-status)](https://app.netlify.com/sites/jackhaben/deploys)
+
 This template should help get you started developing with Vue 3 in Vite.
 
 ## Recommended IDE Setup
