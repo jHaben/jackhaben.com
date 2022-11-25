@@ -4,7 +4,9 @@
   "scripts": {
     "dev": "vite",
     "build": "vite build",
-    "preview": "vite preview"
+    "preview": "vite preview", 
+    "deploy": "aws --region us-east-2 --profile vue-deployer s3 sync ./dist s3://jack-haben --delete" 
+
   },
   "dependencies": {
     "vue": "^3.2.41"
