@@ -11,9 +11,14 @@ defineProps({
   <div class="greetings">
     <h1 class="green">{{ msg }}</h1>
     <h3>
-      This site is built with
-      <a href="https://vitejs.dev/" target="_blank" rel="noopener">Vite</a> +
-      <a href="https://vuejs.org/" target="_blank" rel="noopener">Vue 3</a>.
+      <ul>
+        <li>Built with
+          <a href="https://vitejs.dev/" target="_blank" rel="noopener">Vite</a> +
+          <a href="https://vuejs.org/" target="_blank" rel="noopener">Vue 3</a>
+        </li>
+        <li>Delivered on <a href="https://aws.amazon.com/cloudfront/" target="_blank" rel="noopener">AWS CloudFront</a>
+        </li>
+      </ul>
     </h3>
   </div>
 </template>
@@ -35,6 +40,7 @@ h3 {
 }
 
 @media (min-width: 1024px) {
+
   .greetings h1,
   .greetings h3 {
     text-align: left;
