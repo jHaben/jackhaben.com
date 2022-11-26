@@ -14,7 +14,7 @@ defineProps({
 
       <menu>
         <li>
-          <a href="https://vitejs.dev/" target="_blank" rel="noopener">
+          <a href="mailto:jrhaben@gmail.com" target="_blank" rel="noopener">
             <font-awesome-icon icon="fa-solid fa-envelope" size="lg" />
           </a>
         </li>
