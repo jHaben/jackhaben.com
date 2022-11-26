@@ -11,14 +11,25 @@ defineProps({
   <div class="greetings">
     <h1 class="green">{{ msg }}</h1>
     <h3>
-      <ul>
-        <li>Built with
-          <a href="https://vitejs.dev/" target="_blank" rel="noopener">Vite</a> +
-          <a href="https://vuejs.org/" target="_blank" rel="noopener">Vue 3</a>
+
+      <menu>
+        <li>
+          <a href="https://vitejs.dev/" target="_blank" rel="noopener">
+            <font-awesome-icon icon="fa-solid fa-envelope" size="lg" />
+          </a>
         </li>
-        <li>Delivered on <a href="https://aws.amazon.com/cloudfront/" target="_blank" rel="noopener">AWS CloudFront</a>
+        <li>
+          <a href="https://www.linkedin.com/in/jackhaben" target="_blank" rel="noopener">
+            <font-awesome-icon icon="fa-brands fa-linkedin" size="lg" />
+          </a>
         </li>
-      </ul>
+        <li>
+          <a href="https://github.com/jHaben" target="_blank" rel="noopener">
+            <font-awesome-icon icon="fa-brands fa-github" size="lg" />
+          </a>
+        </li>
+      </menu>
+
     </h3>
   </div>
 </template>
@@ -32,6 +43,8 @@ h1 {
 
 h3 {
   font-size: 1.2rem;
+
+
 }
 
 .greetings h1,
@@ -45,5 +58,20 @@ h3 {
   .greetings h3 {
     text-align: left;
   }
+}
+
+
+
+
+menu {
+  list-style-type: none;
+  display: flex;
+
+}
+
+menu li {
+  float: left;
+  flex: 1 0 auto;
+
 }
 </style>
